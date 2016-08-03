@@ -56,6 +56,12 @@ body {
     font-family: 'Raleway';
 }
 
+.main-header {
+    background-image: url(../images/main-header.jpeg);
+    background-size: 100%;
+    height: inherit
+}
+
 .nav-bar {
     text-align: ;
 }
@@ -67,7 +73,7 @@ body {
 }
 
 .logo {
-    color: #000;
+    color: #fff;
     float: left;
     font-size: 40px;
     font-weight: 700;
@@ -75,6 +81,9 @@ body {
     padding: 20px 100px 20px 100px;
 }
 
+.logo:hover {
+    color: #fff;
+}
 
 .part-two {
     font-size: 20px;
@@ -85,4 +94,8 @@ body {
 nav ul li {
     padding-left: 40px;
     display: inline-block;
+}
+
+nav ul li a{
+    
 }

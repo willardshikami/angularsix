@@ -65,6 +65,8 @@ body {
 
 .nav-bar {
     text-align: ;
+    background: rgba(0,0,0,0.7);
+    padding-bottom: 20px;
 }
 
 .part-one {

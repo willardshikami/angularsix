@@ -52,6 +52,10 @@ table {
   ========================================
 */
 
+body {
+    font-family: 'Raleway';
+}
+
 .nav-bar {
     text-align: ;
 }
@@ -63,15 +67,14 @@ table {
 }
 
 .logo {
+    color: #000;
     float: left;
     font-size: 40px;
+    font-weight: 700;
     text-align: center;
     padding: 20px 100px 20px 100px;
 }
 
-.logo {
-    color: #000;
-}
 
 .part-two {
     font-size: 20px;

@@ -52,3 +52,19 @@ table {
   ========================================
 */
 
+.nav-bar {
+    
+}
+
+.part-one {
+    float: left;
+}
+
+.logo {
+    float: left;
+}
+
+nav ul li {
+    
+    display: inline-block;
+}

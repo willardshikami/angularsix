@@ -99,3 +99,25 @@ nav ul li {
 nav ul li a{
     
 }
+
+/*
+  ========================================
+  HEADER-MID
+  ========================================
+*/
+
+.header-mid {
+    padding-top: 300px; 
+    text-align: center;
+}
+
+.header-mid a {
+    color: #000;
+}
+
+
+.btn {
+    background: #fff;
+    border: 2px solid #000;
+    padding: 10px 30px;
+}

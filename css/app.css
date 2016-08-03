@@ -59,6 +59,7 @@ body {
 .main-header {
     background-image: url(../images/main-header.jpeg);
     background-size: 100%;
+    background-repeat: no-repeat;
     height: inherit
 }
 
@@ -111,13 +112,21 @@ nav ul li a{
     text-align: center;
 }
 
+.header-mid h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
 .header-mid a {
-    color: #000;
+    color: #fff;
 }
 
 
 .btn {
-    background: #fff;
-    border: 2px solid #000;
+    background: ;
+    border: 2px solid #fff;
+    font-weight: 700;
     padding: 10px 30px;
 }

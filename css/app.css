@@ -60,7 +60,7 @@ body {
     background-image: url(../images/main-header.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: inherit
+    height: inherit;
 }
 
 .nav-bar {
@@ -115,14 +115,14 @@ nav ul li a{
 }
 
 .header-mid h1{
-    color: #fff;
+    color: #000;
     font-size: 40px;
     font-weight: 700;
     padding-bottom: 30px;
 }
 
 .header-mid a {
-    color: #fff;
+    color: #333;
 }
 
 
@@ -131,4 +131,22 @@ nav ul li a{
     border: 2px solid #fff;
     font-weight: 700;
     padding: 10px 30px;
+}
+
+.btn:hover {
+    background: #fff;
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
 }

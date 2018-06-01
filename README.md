@@ -1,2 +1,2 @@
 # mv-db
-movie database created using react 
+Angular 6 app

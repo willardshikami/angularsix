@@ -1,2 +1,2 @@
-# mv-db
-Angular 6 app
+# ANGULAR SIX
+Angular 6 auth app

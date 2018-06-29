@@ -8,9 +8,9 @@ const PORT = 3000;
 const app = express();
 
 //Using body parser middleware
-app.use(bodyParser());
+app.use(bodyParser.json());
 
-app.get('./api', api);
+app.use('/api', api);
 
 app.get('/', (req, res) => {
   res.send('Hello from server')
@@ -18,5 +18,5 @@ app.get('/', (req, res) => {
 
 //Listening to server
 app.listen(PORT, () => {
-  console.log('Server running on port ' + PORT);
+  console.log('Server running on port: ' + PORT);
 })

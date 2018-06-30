@@ -13,7 +13,7 @@ mongoose.connect(db, err => {
   }else{
     console.log('Connected to Database!');
   }
-})
+});
 
 //init API
 router.get('/', (req, res) => {
@@ -23,8 +23,8 @@ router.get('/', (req, res) => {
 
 //Request to register user
 //1.collect userdata from request object
-//2. convert it to model that mongoose understands... from ./
-//3. save the user to the db
+//2.convert it to model that mongoose understands... from ./
+//3.save the user to the db
 router.post('/register', (req, res) =>{
   let userData = req.body;
   let user = new User(userData);
@@ -36,5 +36,8 @@ router.post('/register', (req, res) =>{
     }
   })
 })
+
+//Request  to login user
+router.get()
 
 module.exports = router;

@@ -1,5 +1,4 @@
 # Otaku backend
 
-Otaku is an all in one app for everything Anime related
-
+Otaku is an all inclusive Anime Fans Community.
 This Repository contains backend of the otaku project.

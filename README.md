@@ -1,4 +1,4 @@
-# Otaku backend
+## Otaku backend
 
 Otaku is an all inclusive Anime Fans Community.
 
